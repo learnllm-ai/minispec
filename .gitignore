@@ -1,0 +1,70 @@
+# Operating system metadata
+.DS_Store
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Local editor and IDE state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Python environments and build output
+.venv/
+venv/
+env/
+build/
+*.egg-info/
+.eggs/
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Temporary files and logs used by installer tests
+.tmp/
+.tmp-*/
+.tmp-test/
+tmp/
+*.tmp
+*.log
+logs/
+
+# Local secrets; keep checked-in templates explicit
+.env
+.env.*
+!.env.example
+
+# Generated local adapter installs inside this repository
+.claude/
+.copilot/
+.agent-commands/
+.github/skills/
+.github/prompts/
+.agents/skills/
+plugins/sdd/.codex-plugin/migrated-command-skills/
+
+# Required deliverables intentionally tracked
+# - dist/: release archives linked from README
+# - .agents/plugins/marketplace.json: Codex marketplace source
+# - plugins/sdd/: Codex plugin source
+# - spec-driven-development/: portable core skill

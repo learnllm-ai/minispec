@@ -1,0 +1,20 @@
+{
+  "name": "sdd-starter",
+  "interface": {
+    "displayName": "MiniSpec"
+  },
+  "plugins": [
+    {
+      "name": "sdd",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sdd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

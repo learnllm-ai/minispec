@@ -1,0 +1,35 @@
+{
+  "name": "sdd",
+  "version": "0.1.0+codex.20261120114958",
+  "description": "Slash-command workflow for spec-driven software delivery",
+  "author": {
+    "name": "LearnLLM.AI",
+    "url": "https://github.com/learnllm-ai"
+  },
+  "homepage": "https://github.com/learnllm-ai/SDD_Starter",
+  "repository": "https://github.com/learnllm-ai/SDD_Starter",
+  "keywords": [
+    "sdd",
+    "spec-driven-development",
+    "specification",
+    "validation",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MiniSpec",
+    "shortDescription": "Spec-driven delivery through focused slash commands",
+    "longDescription": "MiniSpec runs the portable SDD specification, implementation, independent validation, closeout, and replanning workflow through focused slash commands.",
+    "developerName": "LearnLLM.AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show the next SDD step",
+      "Define the next SDD feature",
+      "Start SDD for this project"
+    ]
+  }
+}
